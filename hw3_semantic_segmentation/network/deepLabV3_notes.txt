@@ -1,0 +1,23 @@
+atrous convolution, a powerful tool
+to explicitly adjust filter’s field-of-view as well as control the
+resolution of feature responses computed by Deep Convolutional Neural Networks
+
+control teh resoution  where features are computed 
+
+enalarge the fiedl of view of filters for multi scale context 
+
+need contextual info for segmnetation 
+
+context modeule 
+
+spatial pyramid pooling, capture context at several ranges 
+
+control how densely to compute feature responses in fully convolutional networls 
+
+ASPP - one 1x1 convolutional 
+ 
+three 3x3 convs w rates = 6, 12, 18 when output stride = 16 
+
+256 filters, batch norm 
+
+batch norm 

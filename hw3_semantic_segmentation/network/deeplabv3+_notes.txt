@@ -1,0 +1,21 @@
+Encoder-Decoder with Atrous Separable
+Convolution for Semantic Image Segmentation
+
+DeepLabv3+, extends
+DeepLabv3 by adding a simple yet effective decoder module to refine the
+segmentation results especially along object boundaries
+
+ applies several parallel atrous convolution with different rates
+
+ adds a decoder module to recover object boundaries 
+
+
+ We propose a novel encoder-decoder structure which employs DeepLabv3 as
+a powerful encoder module and a simple yet effective decoder module.
+– In our structure, one can arbitrarily control the resolution of extracted encoder features by atrous convolution to trade-off precision and runtime,
+which is not possible with existing encoder-decoder models.
+– We adapt the Xception model for the segmentation task and apply depthwise
+separable convolution to both ASPP module and decoder module, resulting
+in a faster and stronger encoder-decoder network.
+
+
